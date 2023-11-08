@@ -17,7 +17,7 @@ const routes = [
     component: MainHome
   },
   {
-    path: '/',
+    path: '/MainOmnie',
     name: 'MainOmnie',
     component: MainOmnie
   },

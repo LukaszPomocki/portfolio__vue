@@ -1,6 +1,5 @@
 <template>
-  <NavBar></NavBar>
-  <MainHome></MainHome>
+
 </template>
 
 <script>
@@ -12,7 +11,8 @@ import MainProjekty from './components/MainProjekty.vue'
 
 
 export default {
-components: {NavBar, MainHome, MainKontakt, MainOmnie, MainProjekty}
+components: {NavBar, MainHome, MainKontakt, MainOmnie, MainProjekty},
+
 }
 </script>
 
