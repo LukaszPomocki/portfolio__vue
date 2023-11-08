@@ -7,7 +7,7 @@
                     <li><a href="Mnie.html">O mnie</a></li>
                     <li><a href="Projekty.html">Projekty</a></li>
                     <li><a href="Kontakt.html">Kontakt</a></li>
-                    <li><a href="../assets/CV__Łukasz__Pomocki.pdf" class="Lista-CV">CV</a></li>
+                    <li><a href="https://lukaszpomocki.github.io/Projekty/Landing-Page/CV__%C5%81ukasz__Pomocki.pdf" class="Lista-CV">CV</a></li>
                 </ul>
         </div>
     </nav>
@@ -20,6 +20,25 @@ export default {
 </script>
 
 <style>
+:root{
+    /* Kolory */
+    --glowny-color: rgb(66, 78, 97);
+    --czcionka-kolor: rgb(255, 255, 255);
+    --tekst-kolor: rgb(238, 238, 239);
+    --akcent-kolor: rgb(106, 188, 243);
+
+     /* rozmiary*/
+    --rozmiar-xxs: 0.5rem;
+    --rozmiar-xs: 0.75rem;
+    --rozmiar-sm: 0.875rem;
+    --rozmiar-base: 1rem;
+    --rozmiar-lg: 1.125rem;
+    --rozmiar-xl: 1.25rem;
+    --rozmiar-2xl: 1.5rem;
+    --rozmiar-3xl: 1.875rem;
+    --rozmiar-4xl: 2.25rem;
+    --rozmiar-5xl: 3rem;
+}
 
 nav{
     height: auto;
@@ -32,7 +51,7 @@ nav{
 .imie{
     height: auto;
     width: 30%;
-    font-size: var(--rozmiar-xl);
+    font-size: var(--rozmiar-4xl);
     color: var(--czcionka-kolor);
     display: flex;
     align-items: center;
@@ -57,7 +76,7 @@ ul{
     display: flex;
     align-items: center;
     padding: 0;
-    font-size: var(--rozmiar-xs);
+    font-size: var(--rozmiar-2xl);
     gap: 1em;
     list-style-type: none;
     margin-right: 0.5rem;

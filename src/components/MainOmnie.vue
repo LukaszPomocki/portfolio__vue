@@ -1,12 +1,12 @@
 <template>
-    <main>
+   <main>
         <div class="tresc">
-            <p class="naglowek">Cześć, nazywam się</p>
-            <h1>Łukasz Pomocki.</h1>
-            <h2>Zbudowałem tą stronę i chciałbym zbudować ich więcej.</h2>
-            <span>Jestem początkującym w budowaniu stron internetowych.<br>
-            Nigdy nie pracowałem komercyjnie w tej dziedzinie. <br>
-            Moim celem jest znalezienie pracy aby powiększyć swój zasób umiejętności w tym temacie. <br></span>
+            <h3>Nazywam się Łukasz Pomocki.</h3>
+            <p>Pochodzę ze Stargardu (Zachodniopomorskie), gdzie uczęszczałem do ZS2 im Mikołaja Kopernika.<br>
+            To właśnie tam miałem pierwszą styczność z budowaniem stron internetowych.<br>
+            Bardzo mi się to spodobało i chciałbym się doszkolić w tym temacie.<br>
+            Umiem całkiem sporo, jednakże zdaję sobie sprawę, że aby wejść na wyższy poziom 
+            muszę nabyć więcej wiedzy i doświadczenia.</p>
         </div>
     </main>
 </template>
@@ -39,22 +39,15 @@ export default {
     --rozmiar-5xl: 3rem;
 }
 
-main{
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .tresc{
     height: auto;
     width: 80%;
     color: var(--czcionka-kolor);
-    }
-    
+}
+
 .naglowek{
     color: var(--akcent-kolor);
-    font-size: var(--rozmiar-4xl);
+    font-size: var(--rozmiar-2xl);
 }
 
 h1{
@@ -69,4 +62,5 @@ span{
     color: var(--tekst-kolor);
     font-size: var(--rozmiar-2xl);
 }
+
 </style>

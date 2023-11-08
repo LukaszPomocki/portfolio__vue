@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import NavBar from '../components/NavBar.vue'
 import MainHome from '../components/MainHome.vue'
+import MainOmnie from '../components/MainOmnie.vue'
+import MainProjekty from '../components/MainProjekty.vue'
+import MainKontakt from '../components/MainKontakt.vue'
 
 const routes = [
   {
@@ -12,8 +15,23 @@ const routes = [
     path: '/',
     name: 'MainHome',
     component: MainHome
-  }
-
+  },
+  {
+    path: '/',
+    name: 'MainOmnie',
+    component: MainOmnie
+  },
+  {
+    path: '/',
+    name: 'MainProjekty',
+    component: MainProjekty
+  },
+  {
+    path: '/',
+    name: 'MainKontakt',
+    component: MainKontakt
+  },
+  
 ]
 
 const router = createRouter({
