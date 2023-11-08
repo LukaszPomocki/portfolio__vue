@@ -45,21 +45,13 @@ export default {
     color: var(--czcionka-kolor);
 }
 
-.naglowek{
-    color: var(--akcent-kolor);
-    font-size: var(--rozmiar-2xl);
-}
 
-h1{
+h3{
+    color: var(--akcent-kolor);
     font-size: var(--rozmiar-5xl);
 }
 
-h2{
-    font-size: var(--rozmiar-4xl);
-}
-
-span{
-    color: var(--tekst-kolor);
+p{
     font-size: var(--rozmiar-2xl);
 }
 

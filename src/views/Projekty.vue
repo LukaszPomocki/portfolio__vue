@@ -1,10 +1,9 @@
 <template>
-  
+  <MainProjekty></MainProjekty>
 </template>
 
 <script>
-import NavBar from '../src/components/NavBar.vue'
-import MainProjekty from './components/MainProjekty.vue'
+import MainProjekty from '../components/MainProjekty.vue'
 
 
 export default {

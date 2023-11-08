@@ -1,10 +1,9 @@
 <template>
-  
+  <MainOmnie></MainOmnie>
 </template>
 
 <script>
-import NavBar from '../src/components/NavBar.vue'
-import MainOmnie from './components/MainOmnie.vue'
+import MainOmnie from '../components/MainOmnie.vue'
 
 
 

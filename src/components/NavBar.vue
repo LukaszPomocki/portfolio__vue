@@ -1,12 +1,12 @@
 <template>
     <nav>
-        <div class="imie"><a href="Index.html">Moje Portfolio</a></div>
+        <div class="imie"><router-link to="/Home">Moje Portfolio</router-link></div>
         <div class="lista-menu">
                 <ul>
-                    <li><router-link to="/">Home</router-link></li>
-                    <li><router-link to="/MainOmnie">O mnie</router-link></li>
-                    <li><a href="Projekty.html">Projekty</a></li>
-                    <li><a href="Kontakt.html">Kontakt</a></li>
+                    <li><router-link to="/Home">Home</router-link></li>
+                    <li><router-link to="/Omnie">O mnie</router-link></li>
+                    <li><router-link to="/Projekty">Projekty</router-link></li>
+                    <li><router-link to="/Kontakt">Kontakt</router-link></li>
                     <li><a href="https://lukaszpomocki.github.io/Projekty/Landing-Page/CV__%C5%81ukasz__Pomocki.pdf" class="Lista-CV">CV</a></li>
                 </ul>
         </div>

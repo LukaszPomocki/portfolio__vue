@@ -12,22 +12,22 @@ const routes = [
     component: NavBar
   },
   {
-    path: '/',
+    path: '/Home',
     name: 'MainHome',
     component: MainHome
   },
   {
-    path: '/MainOmnie',
+    path: '/Omnie',
     name: 'MainOmnie',
     component: MainOmnie
   },
   {
-    path: '/',
+    path: '/Projekty',
     name: 'MainProjekty',
     component: MainProjekty
   },
   {
-    path: '/',
+    path: '/Kontakt',
     name: 'MainKontakt',
     component: MainKontakt
   },

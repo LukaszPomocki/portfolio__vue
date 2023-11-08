@@ -1,13 +1,14 @@
 <template>
-
+<NavBar></NavBar>
+<router-view/>
 </template>
 
 <script>
 import NavBar from '../src/components/NavBar.vue'
-import MainHome from './components/MainHome.vue'
-import MainKontakt from './components/MainKontakt.vue'
-import MainOmnie from './components/MainOmnie.vue'
-import MainProjekty from './components/MainProjekty.vue'
+import MainHome from '../src/components/MainHome.vue'
+import MainKontakt from '../src/components/MainKontakt.vue'
+import MainOmnie from '../src/components/MainOmnie.vue'
+import MainProjekty from '../src/components/MainProjekty.vue'
 
 
 export default {
