@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import NavBar from '../components/NavBar.vue'
 import MainHome from '../components/MainHome.vue'
 import MainOmnie from '../components/MainOmnie.vue'
 import MainProjekty from '../components/MainProjekty.vue'
@@ -8,8 +7,8 @@ import MainKontakt from '../components/MainKontakt.vue'
 const routes = [
   {
     path: '/',
-    name: 'NavBar',
-    component: NavBar
+    name: '/',
+    component: MainHome
   },
   {
     path: '/Home',
