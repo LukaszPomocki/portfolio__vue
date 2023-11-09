@@ -2,7 +2,7 @@
       <main>
         <div class="tresc">
            <h1>Email:</h1>
-            <h1>lukaszpomocki@gamil.com</h1>
+            <h1 class="email">lukaszpomocki@gamil.com</h1>
         </div>
     </main>
 </template>
@@ -14,5 +14,9 @@ export default {
 </script>
 
 <style>
-
+@media (max-width: 768px) {
+    .email{
+       font-size: 2rem;
+    }
+}
 </style>

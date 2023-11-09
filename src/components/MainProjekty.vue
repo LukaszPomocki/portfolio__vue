@@ -2,7 +2,7 @@
    <main>
         <div class="main__projekt">
             <div class="main__karta">
-                <a href="../Projekt1/Index.html" target="_blank"><img src="../assets/Strona1.png"></a>
+                <a href="https://lukaszpomocki.github.io/Projekty/Projekt1/Index.html" target="_blank"><img src="../assets/Strona1.png"></a>
                 <div class="main__tekst">
                     <h2>Strona sklepu zoologicznego</h2>
                         <p>Strona dalej w trakcie budowy</p>
@@ -12,7 +12,7 @@
                     
         <div class="main__projekt">
             <div class="main__karta">
-                <a href="../Projekt2/Index.html" target="_blank"><img src="../assets/Strona2.png"></a>
+                <a href="https://lukaszpomocki.github.io/Projekty/Projekt2/Index.html" target="_blank"><img src="../assets/Strona2.png"></a>
                  <div class="main__tekst">
                     <h2>Strona sklepu elektronicznego</h2>
                         <p>Ukończony projekt</p>
@@ -22,7 +22,7 @@
                     
         <div class="main__projekt">
             <div class="main__karta">
-                <a href="../Projekt3/Index.html" target="_blank"><img src="../assets/Strona3.png"></a>
+                <a href="https://lukaszpomocki.github.io/Projekty/Projekt3/Index.html" target="_blank"><img src="../assets/Strona3.png"></a>
                 <div class="main__tekst">
                     <h2>Strona szkolna</h2>
                     <p>Ukończony projekt</p>
@@ -60,14 +60,63 @@ main{
   border-radius: 1rem;
   background-color: white;
 }
-
+/*
 .main__tekst{
 
 }
-
+*/
 img{
     width: 100%;
     height: auto;
     border-radius: var(--rozmiar-xxs);
 }
+
+@media (max-width: 475px) {
+
+}
+
+@media (min-width: 640px) {
+
+}
+
+@media (max-width: 640px){
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1424px) {
+
+}
+/*
+@media (max-width: 475px) {
+
+}
+
+@media (min-width: 640px) {
+
+}
+
+@media (max-width: 640px){
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1424px) {
+
+}
+*/
 </style>
