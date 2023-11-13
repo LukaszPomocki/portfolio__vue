@@ -16,7 +16,7 @@ export default {
 <style>
 @media (max-width: 768px) {
     .email{
-       font-size: 2rem;
+       font-size: 2.1rem;
     }
 }
 </style>
