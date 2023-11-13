@@ -142,8 +142,9 @@ nav button{
 
 .Nav__PopUp{
     position: absolute;
-    top: 10%;
-    left: 60%;
+    display: none;
+    top: 8%;
+    left: 75%;
     background-color: var(--glowny-color);
     border: 1px solid var(--czcionka-kolor);
     border-radius: var(--rozmiar-xxs);
@@ -165,7 +166,9 @@ nav button{
         width: var(--rozmiar-5xl);
         display: block;
     }
-
+    .Nav__PopUp{
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
