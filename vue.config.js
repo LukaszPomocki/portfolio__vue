@@ -3,5 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true
 })*/
 module.exports = {
-  publicPath: '/portfolio__vue/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/portfolio__vue/'
+    : '/'
 }
